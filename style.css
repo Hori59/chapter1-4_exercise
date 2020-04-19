@@ -1,9 +1,57 @@
-.header {}
-.header-top {}
-.header-bottom {}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
 
-.contentsb {}
-.flont-content {}
-.back-content {}
 
-.footer {}
+/*ヘッダー*/
+}
+.header {
+	width: 100%;
+}
+
+.header-top {
+	height: 50px;
+	background-color: red;
+}
+
+.header-bottom {
+	height: 500px;
+	background-color: orange;
+}
+
+/*メイン*/
+.contents {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.center-content {
+	width: 500px;
+	height: 1400px;
+	background-color: green;
+	margin: 0 auto;
+	float: left;
+}
+
+.left-content {
+	width: 230px;
+	height: 1400px;
+	background-color: lightgreen;
+	float: left;
+}
+
+.right-content {
+	width: 230px;
+	height: 1400px;
+	background-color: lightgreen;
+	float: left;
+}
+
+/*フッター*/
+.footer {
+	width: 100%;
+	height: 100px;
+	background-color: blue;
+}
